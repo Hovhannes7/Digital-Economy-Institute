@@ -1,0 +1,9 @@
+"use client";
+export type FilterState = { query: string; type: string; issueArea: string; author: string; year: string };
+export function SearchAndFilterBar({ filters, onChange, types, issueAreas, authors, years }: { filters: FilterState; onChange: (f: FilterState) => void; types: string[]; issueAreas: string[]; authors: string[]; years: string[] }) {
+  const update = (key: keyof FilterState, value: string) => onChange({ ...filters, [key]: value });
+  return <div className="rounded-3xl border border-line bg-white p-5 shadow-subtle"><label className="block text-sm font-semibold" htmlFor="q">Search publications</label><input id="q" value={filters.query} onChange={e => update("query", e.target.value)} placeholder="Search by title, summary, tag, or issue area" className="mt-2 w-full rounded-xl border border-line px-4 py-3 text-sm outline-none focus:border-ink" /><div className="mt-4 grid gap-3 md:grid-cols-4"><Select label="Type" value={filters.type} onChange={v=>update("type",v)} options={types}/><Select label="Issue area" value={filters.issueArea} onChange={v=>update("issueArea",v)} options={issueAreas}/><Select label="Author" value={filters.author} onChange={v=>update("author",v)} options={authors}/><Select label="Year" value={filters.year} onChange={v=>update("year",v)} options={years}/></div></div>;
+}
+function Select({ label, value, onChange, options }: { label: string; value: string; onChange: (v:string)=>void; options: string[] }) {
+  return <label className="block text-xs font-bold uppercase tracking-wide text-steel">{label}<select value={value} onChange={e=>onChange(e.target.value)} className="mt-2 w-full rounded-xl border border-line bg-white px-3 py-3 text-sm font-medium normal-case text-ink outline-none focus:border-ink"><option value="">All</option>{options.map(o=><option key={o} value={o}>{o}</option>)}</select></label>
+}
