@@ -102,9 +102,9 @@ The A-DEI can help Armenia move from a successful high-tech narrative to a measu
 
 ## Sources
 
-- Network Readiness Index 2025, Armenia country profile: https://download.networkreadinessindex.org/reports/countries/2025/armenia.pdf
-- ITU ICT Development Index 2025: https://www.itu.int/dms_pub/itu-d/opb/ind/D-IND-ICT_MDD-2025-1-PDF-E.pdf
-- UN E-Government Knowledgebase, Armenia: https://publicadministration.un.org/egovkb/en-us/Data/Country-Information/id/8-Armenia
-- World Bank GovTech Maturity Index 2025: https://documents1.worldbank.org/curated/en/099121725193511608/pdf/P502259-9dd7f000-6bd6-4b94-acc7-11d827eefb9d.pdf
-- WIPO Global Innovation Index 2025, Armenia: https://www.wipo.int/edocs/gii-ranking/2025/am.pdf
-- OECD, Advancing the Digital Transformation of Armenian Businesses: https://www.oecd.org/en/publications/2024/07/advancing-the-digital-transformation-of-armenian-businesses_327d6955.html
+- [Network Readiness Index 2025, Armenia country profile](https://download.networkreadinessindex.org/reports/countries/2025/armenia.pdf)
+- [ITU ICT Development Index 2025](https://www.itu.int/dms_pub/itu-d/opb/ind/D-IND-ICT_MDD-2025-1-PDF-E.pdf)
+- [UN E-Government Knowledgebase, Armenia](https://publicadministration.un.org/egovkb/en-us/Data/Country-Information/id/8-Armenia)
+- [World Bank GovTech Maturity Index 2025](https://documents1.worldbank.org/curated/en/099121725193511608/pdf/P502259-9dd7f000-6bd6-4b94-acc7-11d827eefb9d.pdf)
+- [WIPO Global Innovation Index 2025, Armenia](https://www.wipo.int/edocs/gii-ranking/2025/am.pdf)
+- [OECD, Advancing the Digital Transformation of Armenian Businesses](https://www.oecd.org/en/publications/2024/07/advancing-the-digital-transformation-of-armenian-businesses_327d6955.html)
