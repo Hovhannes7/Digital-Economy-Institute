@@ -1,11 +1,43 @@
 function inlineFormat(text: string) {
-  return text.split(/(\*\*[^*]+\*\*)/g).map((part, i) =>
-    part.startsWith("**") && part.endsWith("**") ? (
-      <strong key={i}>{part.slice(2, -2)}</strong>
-    ) : (
-      part
-    )
-  );
+  const parts = text.split(/(\*\*[^*]+\*\*|\[[^\]]+\]\([^)]+\)|https?:\/\/[^\s]+)/g);
+
+  return parts.map((part, i) => {
+    if (part.startsWith("**") && part.endsWith("**")) {
+      return <strong key={i}>{part.slice(2, -2)}</strong>;
+    }
+
+    const markdownLink = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
+
+    if (markdownLink) {
+      return (
+        <a
+          key={i}
+          href={markdownLink[2]}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-medium text-blue-700 underline underline-offset-4 hover:text-blue-900"
+        >
+          {markdownLink[1]}
+        </a>
+      );
+    }
+
+    if (part.startsWith("http://") || part.startsWith("https://")) {
+      return (
+        <a
+          key={i}
+          href={part}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-medium text-blue-700 underline underline-offset-4 hover:text-blue-900 break-words"
+        >
+          {part}
+        </a>
+      );
+    }
+
+    return part;
+  });
 }
 
 function renderTable(block: string, key: number) {
