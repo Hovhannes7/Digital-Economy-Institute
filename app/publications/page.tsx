@@ -21,7 +21,7 @@ export default function PublicationsPage() {
         subtitle="A publication hub covering the technology world, agritech, green and circular economy, healthcare technologies, technologies in law, and latest AI news."
       />
 
-      <section className="bg-paper pb-4">
+      <section className="bg-paper pb-2">
         <Container>
           <Image
             src="/images/publications-sketch.png"
