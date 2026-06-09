@@ -14,4 +14,4 @@ readingTime: "4 min read"
 
 This publication category covers agricultural technologies, smart farming, precision agriculture, food systems, irrigation, water efficiency, rural innovation, and digital tools that can support farmers and agricultural policymakers.
 
-Replace this placeholder text with your daily publication.
+
