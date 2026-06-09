@@ -141,4 +141,16 @@ The goal should not be technology for technology’s sake. The goal should be a 
 
 If Armenia successfully combines digital tools with institutional reforms, farmer education, cooperative models, and targeted public support, agritech can become one of the pillars of the country’s digital economy and regional development strategy.
 
+## Sources
+
+- [Ministry of Economy of Armenia — Agricultural Sector Development Strategy 2020–2030](https://mineconomy.am/en/page/1467)
+- [FAO — Armenia at a Glance](https://www.fao.org/armenia/our-office/armenia-at-a-glance/en)
+- [FAO — Armenia Family Farming Country Profile](https://www.fao.org/family-farming/countries/arm/en/)
+- [FAO — Tackling Land Fragmentation in Armenia through Strategic Land Consolidation](https://openknowledge.fao.org/handle/20.500.14283/cd7272en)
+- [World Bank — Armenia General Water Security Assessment](https://documents1.worldbank.org/curated/en/099062424121038546/pdf/P170030-619bb5f5-65c2-47c7-8c6b-c554e0879f1e.pdf)
+- [World Bank — Armenia to Strengthen Drinking Water Supply and Irrigation Services](https://www.worldbank.org/en/news/press-release/2025/06/13/armenia-to-strengthen-drinking-water-supply-and-irrigation-services-with-world-bank-support)
+- [FAO — Digital Agriculture in Action: Artificial Intelligence for Agriculture](https://openknowledge.fao.org/server/api/core/bitstreams/939c996b-f10b-49ef-993c-3e5e6e0f1478/content)
+- [World Bank — Digital Agriculture Roadmap Playbook](https://documents1.worldbank.org/curated/en/099053025063021993/pdf/P508004-f943a09b-c45f-4c93-b554-9dd1decd1e7c.pdf)
+- [Copernicus — Sentinel-2 for Agriculture](https://www.copernicus.eu/en/sentinel-2-agriculture)
+- [FAO AGRIS — Remote Sensing for Precision Agriculture: Sentinel-2 Improved Features and Applications](https://agris.fao.org/search/en/providers/122436/records/67598bf8c7a957febdfbc634)
 
