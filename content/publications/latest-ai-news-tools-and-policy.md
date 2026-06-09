@@ -14,4 +14,4 @@ readingTime: "4 min read"
 
 This publication category covers latest AI news, large language models, AI tools, AI policy, responsible AI, model governance, public-sector AI use, and emerging risks and opportunities.
 
-Replace this placeholder text with your daily publication.
+
