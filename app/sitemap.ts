@@ -9,10 +9,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes = [
     "",
     "/publications",
-    "/issues",
+    // "/issues",
     "/communities",
     "/communities/general-chat",
-    "/partners",
+    // "/partners",
     "/about",
     "/founders",
     "/events",
