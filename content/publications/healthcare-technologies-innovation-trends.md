@@ -14,4 +14,4 @@ readingTime: "5 min read"
 
 This publication category covers technologies in healthcare, including digital health, medical innovation, AI-supported diagnosis, clinical decision support, health data systems, and latest trends in healthcare transformation.
 
-Replace this placeholder text with your daily publication.
+
