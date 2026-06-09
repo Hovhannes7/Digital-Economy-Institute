@@ -26,8 +26,8 @@ export default function PublicationsPage() {
           <Image
             src="/images/publications-sketch.png"
             alt="Black-and-white sketch representing digital economy publications, technology, agritech, healthcare, law, green economy, and AI research"
-            width={1600}
-            height={900}
+            width={1000}
+            height={560}
             className="w-full h-auto rounded-3xl border border-line bg-white shadow-subtle"
           />
         </Container>
