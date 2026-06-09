@@ -21,8 +21,8 @@ export default function HomePage() {
           <Image
             src="/images/home-sketch.png"
             alt="Black-and-white sketch of Armenia’s digital economy vision"
-            width={1600}
-            height={900}
+            width={1000}
+            height={560}
             priority
             className="w-full h-auto rounded-3xl border border-slate-200 bg-white shadow-sm"
           />
