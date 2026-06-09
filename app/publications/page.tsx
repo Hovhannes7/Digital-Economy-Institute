@@ -19,21 +19,17 @@ export default function PublicationsPage() {
       <Hero
         title="Publications"
         subtitle="A publication hub covering the technology world, agritech, green and circular economy, healthcare technologies, technologies in law, and latest AI news."
-      />
-
-      <section className="bg-paper py-6">
-        <Container>
-          <div className="mx-auto max-w-5xl">
-            <Image
-              src="/images/publications-sketch.png"
-              alt="Black-and-white sketch representing digital economy publications, technology, agritech, healthcare, law, green economy, and AI research"
-              width={1600}
-              height={900}
-              className="h-auto w-full rounded-3xl border border-line bg-white shadow-subtle"
-            />
-          </div>
-        </Container>
-      </section>
+      >
+        <div className="mt-6 max-w-3xl">
+          <Image
+            src="/images/publications-sketch.png"
+            alt="Black-and-white sketch representing digital economy publications, technology, agritech, healthcare, law, green economy, and AI research"
+            width={1600}
+            height={900}
+            className="h-auto w-full rounded-3xl border border-line bg-white shadow-subtle"
+          />
+        </div>
+      </Hero>
 
       <section className="bg-paper py-16">
         <Container>
