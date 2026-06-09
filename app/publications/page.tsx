@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 
 import { Container } from "@/components/Container";
 import { Hero } from "@/components/Hero";
@@ -19,6 +20,18 @@ export default function PublicationsPage() {
         title="Publications"
         subtitle="A publication hub covering the technology world, agritech, green and circular economy, healthcare technologies, technologies in law, and latest AI news."
       />
+
+      <section className="bg-paper pb-4">
+        <Container>
+          <Image
+            src="/images/publications-sketch.png"
+            alt="Black-and-white sketch representing digital economy publications, technology, agritech, healthcare, law, green economy, and AI research"
+            width={1600}
+            height={900}
+            className="w-full h-auto rounded-3xl border border-line bg-white shadow-subtle"
+          />
+        </Container>
+      </section>
 
       <section className="bg-paper py-16">
         <Container>
