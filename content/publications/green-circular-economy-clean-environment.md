@@ -14,4 +14,4 @@ readingTime: "5 min read"
 
 This publication category covers technologies in the green economy, circular economy, clean environment, climate resilience, pollution reduction, sustainable production, waste management, and related fields.
 
-Replace this placeholder text with your daily publication.
+
