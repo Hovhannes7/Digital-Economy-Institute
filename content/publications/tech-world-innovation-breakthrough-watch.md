@@ -14,4 +14,4 @@ readingTime: "4 min read"
 
 This publication category covers major developments in the global technology world, including innovations, breakthroughs, new digital infrastructure, emerging platforms, and technology trends that may influence economies, institutions, and public policy.
 
-Replace this placeholder text with your daily publication.
+
