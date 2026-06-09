@@ -14,4 +14,4 @@ readingTime: "5 min read"
 
 This publication category covers technologies in law and jurisprudence, including legal technology, AI governance, digital rights, compliance, regulatory modernization, judicial innovation, and the responsible use of digital tools in legal systems.
 
-Replace this placeholder text with your daily publication.
+
