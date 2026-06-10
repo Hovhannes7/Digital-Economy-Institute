@@ -1,19 +1,13 @@
 ---
-
 title: "Strategic Transformation: The Blueprint for a Circular and Climate-Neutral Economy"
-description: "A strategic roadmap for moving beyond the linear economy toward circular, climate-neutral, and resilient industrial systems."
+slug: "strategic-transformation-circular-climate-neutral-economy"
 date: "2026-06-10"
 author: "Hovhannes Adajyan"
-category: "Green and Circular Economy"
-image: "/images/green-circular-economy-clean-environment-technologies.png"
-tags:
-
-* Circular Economy
-* Green Economy
-* Clean Environment Technologies
-* Climate Neutrality
-* Resource Efficiency
-
+type: "Report"
+issueArea: "Green and Circular Economy"
+summary: "A strategic roadmap for moving beyond the linear economy toward a circular, climate-neutral, and resilient industrial model based on resource efficiency, clean technologies, remanufacturing, green energy, and regulatory transformation."
+tags: ["Circular Economy", "Green Economy", "Clean Environment Technologies", "Climate Neutrality", "Resource Efficiency"]
+readingTime: "10 min read"
 ---
 
 # Strategic Transformation: The Blueprint for a Circular and Climate-Neutral Economy
@@ -149,11 +143,17 @@ This is not merely a path to sustainability. It is the blueprint for the next ge
 
 ---
 
-## Suggested Sources and Further Reading
+## Sources and Further Reading
 
-* [European Commission — Circular Economy Action Plan](https://environment.ec.europa.eu/strategy/circular-economy-action-plan_en)
-* [European Commission — Ecodesign for Sustainable Products Regulation](https://commission.europa.eu/energy-climate-change-environment/standards-tools-and-labels/products-labelling-rules-and-requirements/ecodesign-sustainable-products-regulation_en)
-* [European Commission — Right to Repair](https://commission.europa.eu/law/law-topic/consumer-protection-law/consumer-contract-law/right-repair_en)
-* [UNEP — Global Resources Outlook](https://www.unep.org/resources/Global-Resource-Outlook-2024)
-* [Ellen MacArthur Foundation — Circular Economy Introduction](https://www.ellenmacarthurfoundation.org/topics/circular-economy-introduction/overview)
-* [International Maritime Organization — Greenhouse Gas Emissions](https://www.imo.org/en/OurWork/Environment/Pages/GHG-Emissions.aspx)
+- [UNEP — Global Resources Outlook 2024](https://www.unep.org/resources/Global-Resources-Outlook-2024)
+- [European Commission — Circular Economy Action Plan](https://environment.ec.europa.eu/strategy/circular-economy-action-plan_en)
+- [European Commission — Circular Economy](https://environment.ec.europa.eu/strategy/circular-economy_en)
+- [European Commission — Clean Industrial Deal](https://commission.europa.eu/topics/competitiveness/clean-industrial-deal_en)
+- [European Commission — Ecodesign for Sustainable Products Regulation](https://commission.europa.eu/energy-climate-change-environment/standards-tools-and-labels/products-labelling-rules-and-requirements/ecodesign-sustainable-products-regulation_en)
+- [European Commission — Right to Repair](https://commission.europa.eu/law/law-topic/consumer-protection-law/consumer-contract-law/right-repair_en)
+- [European Commission — Consultation on the Circular Economy Act](https://environment.ec.europa.eu/news/commission-launches-consultation-upcoming-circular-economy-act-2025-08-01_en)
+- [European Environment Agency — Circular Material Use Rate in Europe](https://www.eea.europa.eu/en/analysis/indicators/circular-material-use-rate-in-europe)
+- [Ellen MacArthur Foundation — Circular Economy Introduction](https://www.ellenmacarthurfoundation.org/topics/circular-economy-introduction/overview)
+- [International Maritime Organization — Greenhouse Gas Emissions](https://www.imo.org/en/OurWork/Environment/Pages/GHG-Emissions.aspx)
+- [McKinsey — Green Business Building Opportunity](https://www.mckinsey.com/capabilities/sustainability/our-insights/accelerating-toward-net-zero-the-green-business-building-opportunity)
+
