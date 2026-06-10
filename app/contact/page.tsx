@@ -19,7 +19,15 @@ const inquiryTypes = [
   "Discovery/IP inquiry",
 ];
 
-export default function ContactPage() {
+type ContactPageProps = {
+  searchParams?: {
+    success?: string;
+  };
+};
+
+export default function ContactPage({ searchParams }: ContactPageProps) {
+  const messageSent = searchParams?.success === "true";
+
   return (
     <>
       <Hero
@@ -29,6 +37,18 @@ export default function ContactPage() {
 
       <section className="bg-paper py-16">
         <Container>
+          {messageSent ? (
+            <div className="mb-8 rounded-3xl border border-green-200 bg-green-50 p-6 shadow-subtle">
+              <p className="text-lg font-bold text-green-800">
+                Your message is sent successfully.
+              </p>
+              <p className="mt-2 text-sm leading-6 text-green-700">
+                Thank you for contacting the Institute of Digital Economy. We
+                will review your message and respond as soon as possible.
+              </p>
+            </div>
+          ) : null}
+
           <div className="grid gap-8 lg:grid-cols-[1.4fr_.8fr]">
             <form
               action="https://api.web3forms.com/submit"
@@ -56,7 +76,7 @@ export default function ContactPage() {
               <input
                 type="hidden"
                 name="redirect"
-                value="https://digital-economy-institute.org/contact"
+                value="https://digital-economy-institute.org/contact?success=true"
               />
 
               <input
