@@ -25,8 +25,8 @@ export default function CommunitiesPage() {
       >
         <div className="mt-6 max-w-3xl">
           <Image
-            src="/images/communities-sketch.png"
-            alt="Black-and-white sketch of interdisciplinary collaboration between researchers, policymakers, entrepreneurs, and practitioners"
+            src="/images/communities-sketch.webp"
+            alt="Black-and-white sketch representing expert communities and digital collaboration"
             width={1600}
             height={900}
             className="h-auto w-full rounded-3xl border border-line bg-white shadow-subtle"
