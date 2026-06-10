@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 
-import { Button } from "@/components/Button";
 import { Container } from "@/components/Container";
 import { Hero } from "@/components/Hero";
 import { NoticeBox } from "@/components/NoticeBox";
@@ -31,13 +30,51 @@ export default function ContactPage() {
       <section className="bg-paper py-16">
         <Container>
           <div className="grid gap-8 lg:grid-cols-[1.4fr_.8fr]">
-            <form className="rounded-3xl border border-line bg-white p-6 shadow-subtle">
+            <form
+              action="https://api.web3forms.com/submit"
+              method="POST"
+              className="rounded-3xl border border-line bg-white p-6 shadow-subtle"
+            >
+              <input
+                type="hidden"
+                name="access_key"
+                value="a0db1521-4b14-4c5c-bad8-190f53b05861"
+              />
+
+              <input
+                type="hidden"
+                name="subject"
+                value="New message from Institute of Digital Economy website"
+              />
+
+              <input
+                type="hidden"
+                name="from_name"
+                value="Institute of Digital Economy Website"
+              />
+
+              <input
+                type="hidden"
+                name="redirect"
+                value="https://digital-economy-institute.org/contact"
+              />
+
+              <input
+                type="checkbox"
+                name="botcheck"
+                className="hidden"
+                style={{ display: "none" }}
+                tabIndex={-1}
+                autoComplete="off"
+              />
+
               <div className="grid gap-5 sm:grid-cols-2">
                 <label className="text-sm font-semibold">
                   Name
                   <input
                     type="text"
                     name="name"
+                    required
                     className="mt-2 w-full rounded-2xl border border-line bg-paper px-4 py-3 text-sm outline-none focus:border-ink"
                     placeholder="Your name"
                   />
@@ -48,6 +85,7 @@ export default function ContactPage() {
                   <input
                     type="email"
                     name="email"
+                    required
                     className="mt-2 w-full rounded-2xl border border-line bg-paper px-4 py-3 text-sm outline-none focus:border-ink"
                     placeholder="your@email.com"
                   />
@@ -57,7 +95,8 @@ export default function ContactPage() {
               <label className="mt-5 block text-sm font-semibold">
                 Inquiry type
                 <select
-                  name="inquiryType"
+                  name="inquiry_type"
+                  required
                   className="mt-2 w-full rounded-2xl border border-line bg-paper px-4 py-3 text-sm outline-none focus:border-ink"
                   defaultValue=""
                 >
@@ -76,6 +115,7 @@ export default function ContactPage() {
                 Message
                 <textarea
                   name="message"
+                  required
                   rows={7}
                   className="mt-2 w-full rounded-2xl border border-line bg-paper px-4 py-3 text-sm outline-none focus:border-ink"
                   placeholder="Write your message here..."
@@ -83,14 +123,19 @@ export default function ContactPage() {
               </label>
 
               <div className="mt-6">
-                <Button type="button">Send message</Button>
+                <button
+                  type="submit"
+                  className="inline-flex items-center justify-center rounded-full border border-ink bg-ink px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-graphite"
+                >
+                  Send message
+                </button>
               </div>
 
               <div className="mt-5">
                 <NoticeBox>
-                  Contact form is a frontend prototype. For now, please contact
-                  the Institute directly by email. Production use requires secure
-                  form handling, spam protection, and email or CRM integration.
+                  Messages submitted through this form will be delivered to the
+                  Institute’s email inbox. You can also contact us directly by
+                  email.
                 </NoticeBox>
               </div>
             </form>
