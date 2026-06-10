@@ -15,7 +15,7 @@ tags:
   - AI
 readingTime: "8 min read"
 ---
-![Agritech: Smart Farming and Food Systems](/images/agritech-smart-farming-and-food-systems.png)
+![Agritech: Smart Farming and Food Systems](/images/agritech-smart-farming-and-food-systems.webp)
 
 # Agritech: Smart Farming and Food Systems
 
