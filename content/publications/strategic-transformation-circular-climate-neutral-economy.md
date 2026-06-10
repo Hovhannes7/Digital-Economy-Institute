@@ -12,7 +12,7 @@ readingTime: "10 min read"
 
 # Strategic Transformation: The Blueprint for a Circular and Climate-Neutral Economy
 
-![Green and Circular Economy: Clean Environment Technologies](/images/green-circular-economy-clean-environment-technologies.png)
+![Green and Circular Economy: Clean Environment Technologies](/images/green-circular-economy-clean-environment-technologies.webp)
 
 ## 1. The Strategic Imperative: Moving Beyond the Linear Paradigm
 
