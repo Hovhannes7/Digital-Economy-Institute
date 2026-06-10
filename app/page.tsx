@@ -19,12 +19,12 @@ export default function HomePage() {
       >
         <div className="mt-8">
           <Image
-            src="/images/home-sketch.png"
+            src="/images/home-sketch.webp"
             alt="Black-and-white sketch of Armenia’s digital economy vision"
-            width={1000}
-            height={560}
+            width={1600}
+            height={900}
             priority
-            className="w-full h-auto rounded-3xl border border-slate-200 bg-white shadow-sm"
+            className="h-auto w-full rounded-3xl border border-line bg-white shadow-subtle"
           />
         </div>
 
