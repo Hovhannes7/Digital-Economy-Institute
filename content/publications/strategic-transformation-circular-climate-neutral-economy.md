@@ -33,7 +33,6 @@ This transformation is a direct response to systemic risks caused by resource ex
 
 The goal is to move beyond mitigation and toward a model where value is **compounded, not destroyed**, across every product lifecycle.
 
----
 
 ## 2. The Multi-Trillion Dollar Revenue Frontier
 
@@ -47,7 +46,6 @@ Strategic leadership requires recognizing that early adoption in the green econo
 
 Early adopters will gain a decisive advantage as resource efficiency becomes a key differentiator in high-stakes global markets. However, building this financial resilience requires navigating a landscape of shifting geopolitical forces.
 
----
 
 ## 3. Navigating Geopolitical Shocks and Resource Volatility
 
@@ -63,7 +61,6 @@ To ensure geopolitical adaptability, leadership must execute the following:
 
 Resource scarcity has fundamentally rewritten the profitability margin for material recovery. Price spikes in battery metals such as **lithium, nickel, and cobalt** have made recovery from secondary sources increasingly important. This shift requires a reimagining of industrial facilities and material recovery systems.
 
----
 
 ## 4. The Value Retention Engine: Remanufacturing Excellence
 
@@ -79,8 +76,6 @@ This is not simply a waste management strategy. It is a mechanism to keep comple
 4. **Standards Leadership:** Secure supply chains through rigorous material purity and traceability standards.
 
 This model depends on the **ecodesign imperative**. Since a significant share of a product’s environmental impact is determined at the design phase, “Design for Recycling” and Life Cycle Assessments are essential prerequisites for operationalizing circular value retention.
-
----
 
 ## 5. Sector-Specific Deep Dives: Transport and Clean Energy
 
@@ -101,8 +96,6 @@ The clean technology value chain must also eliminate toxic dependencies to suppo
 * **Water-Soluble Binders:** Replacing PVDF with Carboxymethyl Cellulose to reduce toxic solvent use and make electrode structures easier to process for material recovery.
 * **Bio-Based Solvents:** Using bio-based and less hazardous solvent alternatives where possible to reduce environmental and health risks in production and recycling.
 
----
-
 ## 6. The Regulatory Roadmap and Governance Framework
 
 Industrial leadership must stay ahead of the regulatory curve, especially as the European Union advances its circular economy and clean industry agenda.
@@ -119,7 +112,6 @@ Industrial leadership must stay ahead of the regulatory curve, especially as the
 * [ ] **Metric Integration:** Use circular economy monitoring indicators to benchmark internal material flows.
 * [ ] **Stakeholder Synthesis:** Engage with circular economy platforms and industrial networks to exchange best practices.
 
----
 
 ## 7. Strategic Implementation: Building Local Resilience
 
@@ -141,7 +133,6 @@ By doubling circularity and accelerating clean industrial transformation, countr
 
 This is not merely a path to sustainability. It is the blueprint for the next generation of global industrial leadership.
 
----
 
 ## Sources and Further Reading
 
