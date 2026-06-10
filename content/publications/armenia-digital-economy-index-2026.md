@@ -15,7 +15,7 @@ tags:
 readingTime: "10 min read"
 
 ---
-![Armenia Digital Economy Index 2026 — Policy Brief cover](/publications/armenia-digital-economy-index-2026.png)
+![Armenia Digital Economy Index 2026](/images/armenia-digital-economy-index-2026.webp)
 
 
 # Armenia Digital Economy Index 2026: Measuring the Next Stage of Armenia’s Digital Transformation
