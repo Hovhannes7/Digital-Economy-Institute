@@ -56,6 +56,7 @@ export default function AboutPage() {
             width={1672}
             height={941}
             priority
+            unoptimized
             className="h-auto w-full rounded-3xl border border-line bg-white shadow-subtle"
           />
         </div>
