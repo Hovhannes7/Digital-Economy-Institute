@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 
 import { Container } from "@/components/Container";
 import { Hero } from "@/components/Hero";
@@ -45,78 +46,92 @@ export default function AboutPage() {
   return (
     <>
       <Hero
-        title="About Institute of Digital Economy"
-        subtitle="A research and policy institution focused on building trustworthy digital-economy infrastructure."
-      />
+        title="About the Institute"
+        subtitle="The Institute of Digital Economy is a research and policy-oriented platform connecting technology, expert communities, and practical public challenges."
+      >
+        <div className="mt-8 max-w-5xl">
+          <Image
+            src="/images/about-page-image.webp"
+            alt="Conceptual illustration connecting Washington DC, Armenia, policy research, expert communities, agriculture, healthcare, environment, and jurisprudence"
+            width={1672}
+            height={941}
+            priority
+            className="h-auto w-full rounded-3xl border border-line bg-white shadow-subtle"
+          />
+        </div>
+      </Hero>
 
-      <section className="bg-white py-16">
-        <Container className="space-y-12">
-          <div className="grid gap-6 lg:grid-cols-2">
-            <div className="rounded-3xl border border-line bg-paper p-8">
-              <SectionHeading title="Mission">
-                <p>
-                  To strengthen the digital economy through trustworthy data
-                  systems, reproducible computational research, responsible AI,
-                  expert communities, and evidence-based policy infrastructure.
-                </p>
+      <section className="bg-paper py-16">
+        <Container>
+          <div className="grid gap-8 lg:grid-cols-[0.9fr_1.4fr]">
+            <div>
+              <SectionHeading
+                eyebrow="Mission"
+                title="Practical technology for public value"
+              >
+                The Institute supports responsible technology use through
+                research, publications, expert communities, and digital tools.
               </SectionHeading>
             </div>
 
-            <div className="rounded-3xl border border-line bg-paper p-8">
-              <SectionHeading title="Vision">
-                <p>
-                  A digital economy where researchers, governments, and
-                  institutions rely on transparent, verifiable, and reusable
-                  knowledge systems instead of opaque or non-reproducible
-                  analytical processes.
-                </p>
-              </SectionHeading>
+            <div className="rounded-3xl border border-line bg-white p-6 shadow-subtle">
+              <h2 className="text-2xl font-bold">Mission</h2>
+              <p className="mt-4 text-sm leading-7 text-steel">
+                To strengthen the digital economy through trustworthy data
+                systems, reproducible computational research, responsible AI,
+                expert communities, and evidence-based policy infrastructure.
+              </p>
+
+              <h2 className="mt-8 text-2xl font-bold">Vision</h2>
+              <p className="mt-4 text-sm leading-7 text-steel">
+                A digital economy where researchers, governments, and
+                institutions rely on transparent, verifiable, and reusable
+                knowledge systems instead of opaque or non-reproducible
+                analytical processes.
+              </p>
+
+              <h2 className="mt-8 text-2xl font-bold">Founder story</h2>
+              <p className="mt-4 text-sm leading-7 text-steel">
+                The idea behind the Institute of Digital Economy was strongly
+                shaped during Hovhannes Adajyan&apos;s visit to Washington, DC
+                through the Professional Fellowship Program. Exposure to the
+                United States technology-policy environment showed how research
+                institutions, government, business, and expert communities can
+                work together to connect technology with practical public
+                problems.
+              </p>
+
+              <p className="mt-4 text-sm leading-7 text-steel">
+                Engagement with the Information Technology and Innovation
+                Foundation strengthened the institutional inspiration behind the
+                project. It demonstrated the value of clear policy research,
+                evidence-based analysis, and public-facing technology expertise.
+                This experience encouraged the creation of an Armenian
+                tech-related think tank focused on real-life issues rather than
+                technology for its own sake.
+              </p>
+
+              <p className="mt-4 text-sm leading-7 text-steel">
+                The Institute of Digital Economy aims to connect technological
+                solutions with challenges in agriculture, healthcare,
+                environment, and jurisprudence. Its purpose is to support
+                practical research, expert communities, publications, and
+                digital tools that help policymakers, professionals, and
+                institutions find responsible and useful technology-based
+                solutions.
+              </p>
             </div>
           </div>
 
-          <div className="rounded-3xl border border-line bg-white p-8 shadow-subtle">
-            <SectionHeading eyebrow="Founder story" title="From Washington, DC to an Armenian technology-policy think tank">
-              <div className="space-y-4 text-sm leading-7 text-steel">
-                <p>
-                  The idea behind the Institute of Digital Economy was strongly
-                  shaped during Hovhannes Adajyan&apos;s visit to Washington, DC
-                  through the Professional Fellowship Program. Exposure to the
-                  United States technology-policy environment showed how
-                  research institutions, government, business, and expert
-                  communities can work together to connect technology with
-                  practical public problems.
-                </p>
-                <p>
-                  Engagement with the Information Technology and Innovation
-                  Foundation strengthened the institutional inspiration behind
-                  the project. It demonstrated the value of clear policy
-                  research, evidence-based analysis, and public-facing
-                  technology expertise. This experience encouraged the creation
-                  of an Armenian tech-related think tank focused on real-life
-                  issues rather than technology for its own sake.
-                </p>
-                <p>
-                  The Institute of Digital Economy aims to connect technological
-                  solutions with challenges in agriculture, healthcare,
-                  environment, and jurisprudence. Its purpose is to support
-                  practical research, expert communities, publications, and
-                  digital tools that help policymakers, professionals, and
-                  institutions find responsible and useful technology-based
-                  solutions.
-                </p>
-              </div>
-            </SectionHeading>
-          </div>
-
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-12 grid gap-6 md:grid-cols-2">
             {sections.map(([title, text]) => (
-              <article
+              <div
                 key={title}
                 className="rounded-3xl border border-line bg-white p-6 shadow-subtle"
               >
                 <h2 className="text-xl font-bold">{title}</h2>
-                <p className="mt-3 text-sm leading-6 text-steel">{text}</p>
-              </article>
+                <p className="mt-3 text-sm leading-7 text-steel">{text}</p>
+              </div>
             ))}
           </div>
         </Container>
