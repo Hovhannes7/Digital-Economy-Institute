@@ -10,6 +10,8 @@ tags: ["Law", "Legal Technology", "Digital Governance", "Artificial Intelligence
 readingTime: "12 min read"
 ---
 
+![Technologies in Law: Digital Governance, Artificial Intelligence, and Human Rights](/images/tech-in-law.webp)
+
 # Technologies in Law: Digital Governance, Artificial Intelligence, and Human Rights
 
 ## Executive Summary
