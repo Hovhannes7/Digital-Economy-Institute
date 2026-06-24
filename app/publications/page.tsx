@@ -33,16 +33,7 @@ export default function PublicationsPage() {
 
       <section className="bg-paper py-16">
         <Container>
-          <div className="mb-8 rounded-3xl border border-line bg-white p-6 shadow-subtle">
-            <h2 className="text-xl font-bold">How to add daily publications</h2>
-            <p className="mt-3 text-sm leading-6 text-steel">
-              Add a new Markdown file inside <code>content/publications</code>.
-              Use one of these issueArea values: Tech World, Agritech, Green
-              and Circular Economy, Healthcare Technologies, Technologies in
-              Law, or Latest AI News.
-            </p>
-          </div>
-
+          
           <PublicationsExplorer publications={getAllPublications()} />
         </Container>
       </section>
