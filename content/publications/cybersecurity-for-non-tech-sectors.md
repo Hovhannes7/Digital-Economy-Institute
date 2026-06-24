@@ -38,7 +38,7 @@ This report provides:
 
 [Download the complete formatted Word report](/reports/cybersecurity-for-non-tech-sectors-2026.docx)
 
----
+
 
 ## 1. Why Non-Tech Organizations Are Attractive Targets
 
@@ -66,7 +66,7 @@ Medical devices, industrial controllers, environmental sensors, agricultural mac
 
 A small organization may have one general IT administrator, an external contractor, or no technical employee at all. Security tools can then generate alerts that nobody reviews, while important responsibilities remain unclear.
 
----
+
 
 ## 2. Main Cybersecurity Threats
 
@@ -181,7 +181,7 @@ Important questions include:
 - Who owns the data?
 - How is data returned or deleted when the contract ends?
 
----
+
 
 ## 3. Sector Analytics and Vulnerability Profiles
 
@@ -191,7 +191,7 @@ The figures below use different reporting methods and should not be directly com
 
 The [Food and Agriculture Information Sharing and Analysis Center](https://www.foodandag-isac.org/post/navigating-the-2025-food-and-agriculture-sector-ransomware-landscape) recorded 265 ransomware attacks affecting the food and agriculture sector in 2025, representing 4.2% of the cross-sector ransomware incidents it tracked.
 
-#### Common attacks
+Common attacks
 
 - ransomware against farms, processors, distributors, and suppliers;
 - fraudulent invoices and changes to supplier bank details;
@@ -202,13 +202,13 @@ The [Food and Agriculture Information Sharing and Analysis Center](https://www.f
 - theft of research, production, and supply-chain information;
 - compromise of connected sensors, irrigation systems, cameras, and other IoT devices.
 
-#### Structural vulnerabilities
+Structural vulnerabilities
 
 Agriculture often combines advanced machinery with limited cybersecurity governance. A farm may use cloud dashboards, GPS services, sensors, automated feeding systems, drones, mobile devices, and remote vendor support without maintaining a complete digital asset inventory.
 
 Seasonal operations also increase risk. Temporary workers may receive rapid access with limited training. Shared accounts, old tablets, personal messaging applications, and unmanaged Wi-Fi are common.
 
-#### Practical defenses
+Practical defenses
 
 - separate office systems from operational and production equipment;
 - inventory all vendor remote-access accounts;
@@ -220,13 +220,13 @@ Seasonal operations also increase risk. Temporary workers may receive rapid acce
 - confirm that cloud-service providers maintain backups and MFA;
 - establish manual procedures for irrigation, feeding, dispatch, or production where feasible.
 
-#### Example
+Example
 
 A food producer receives an email from a known supplier announcing a new bank account. The message appears inside an existing email conversation because the supplier’s mailbox has been compromised. The producer transfers funds to the attacker.
 
 The most effective protection is procedural: bank-detail changes are never accepted through email alone. A known employee calls a verified telephone number already stored in the supplier record.
 
----
+
 
 ### 3.2 Environment, Water, and Utility Services
 
@@ -234,7 +234,7 @@ Environmental and water organizations manage systems whose disruption can affect
 
 In 2026, the [U.S. Environmental Protection Agency](https://www.epa.gov/newsreleases/epa-actions-help-safeguard-water-systems-cyberattacks) reported that it had identified cybersecurity vulnerabilities at 277 water systems and supported remediation of 350 vulnerabilities during 2025.
 
-#### Common attacks
+Common attacks
 
 - compromise of internet-exposed controllers;
 - use of default or reused passwords;
@@ -246,13 +246,13 @@ In 2026, the [U.S. Environmental Protection Agency](https://www.epa.gov/newsrele
 - compromise of environmental data portals;
 - attacks through equipment and software vendors.
 
-#### Structural vulnerabilities
+Structural vulnerabilities
 
 Water and environmental infrastructure may use long-lived industrial control systems, remote sensors, specialized software, and equipment that cannot be updated without operational planning.
 
 Small facilities may rely on one engineer or an external vendor. Direct internet exposure is especially dangerous when a control interface was designed for convenience rather than security.
 
-#### Practical defenses
+Practical defenses
 
 - remove direct internet access from operational technology whenever possible;
 - change all default credentials;
@@ -265,13 +265,13 @@ Small facilities may rely on one engineer or an external vendor. Direct internet
 - test communication methods that do not depend on the affected network;
 - use the [EPA Water Sector Cybersecurity resources](https://www.epa.gov/waterresilience/cybersecurity-water-sector) and CISA guidance for assessments and incident preparation.
 
-#### Example
+Example
 
 A small treatment facility leaves a remote-control interface exposed to the internet so a contractor can provide support. The interface still uses a default password. An attacker changes settings or interrupts the process.
 
 The preferred solution is not simply a stronger password. The interface should not be directly exposed. Remote access should pass through a controlled gateway or VPN, use MFA, be limited to approved users and times, and be logged.
 
----
+
 
 ### 3.3 Healthcare
 
@@ -289,7 +289,7 @@ Verizon’s [2026 DBIR Healthcare Snapshot](https://www.verizon.com/business/res
 
 The report also identified exploitation of vulnerabilities, phishing, and credential abuse as important initial-access routes. It emphasized that ransomware-driven system intrusion and persistent human error remain central healthcare risks.
 
-#### Common attacks
+Common attacks
 
 - ransomware affecting records, scheduling, laboratories, imaging, or clinical systems;
 - phishing and credential theft;
@@ -302,13 +302,13 @@ The report also identified exploitation of vulnerabilities, phishing, and creden
 - misuse of shared accounts;
 - compromise of medical and IoT devices.
 
-#### Structural vulnerabilities
+Structural vulnerabilities
 
 Healthcare employees must work quickly. Shared workstations, emergency processes, staff turnover, multiple professional roles, and connected devices complicate strict access control.
 
 Healthcare providers may also depend on external billing providers, laboratories, pharmacies, insurers, cloud platforms, and equipment vendors.
 
-#### Practical defenses
+Practical defenses
 
 - require MFA for email, remote access, cloud administration, billing, and sensitive clinical administration;
 - eliminate shared administrator accounts;
@@ -322,13 +322,13 @@ Healthcare providers may also depend on external billing providers, laboratories
 - include security responsibilities and incident notification in supplier contracts;
 - provide secure methods for patients and partners to exchange documents.
 
-#### Example
+Example
 
 A clinic employee receives a realistic cloud-document notification. The link opens a counterfeit login page and captures the employee’s password. The attacker accesses email, identifies billing conversations, and sends altered payment instructions.
 
 MFA may stop the password from being sufficient. Login alerts, user reporting, forwarding-rule monitoring, and financial verification provide additional layers.
 
----
+
 
 ### 3.4 Legal and Professional Services
 
@@ -336,7 +336,7 @@ Law firms and legal organizations hold confidential information, manage deadline
 
 The [FBI 2025 Internet Crime Report](https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf) stated that legal services represented 18% of more than 1,400 ransomware complaints from businesses and organizations outside designated critical sectors. This was the largest listed share in that group.
 
-#### Common attacks
+Common attacks
 
 - business email compromise;
 - fraudulent settlement or bank instructions;
@@ -349,13 +349,13 @@ The [FBI 2025 Internet Crime Report](https://www.ic3.gov/AnnualReport/Reports/20
 - impersonation of clients, counterparties, courts, banks, or senior lawyers;
 - attacks through legal software and external service providers.
 
-#### Structural vulnerabilities
+Structural vulnerabilities
 
 Legal work depends on trust and confidentiality. Time pressure, client expectations, court deadlines, remote work, and large document exchanges create opportunities for social engineering.
 
 Small practices may also use consumer-grade email, file-sharing, and backup services without formal access governance.
 
-#### Practical defenses
+Practical defenses
 
 - verify all bank-detail changes through a trusted second channel;
 - use MFA for email, document systems, remote access, and finance;
@@ -368,13 +368,13 @@ Small practices may also use consumer-grade email, file-sharing, and backup serv
 - keep an external legal, technical, insurance, and communications incident-contact list;
 - train staff to recognize fake court, regulator, client, and partner communications.
 
-#### Example
+Example
 
 An attacker gains access to a client’s mailbox, studies an ongoing transaction, and sends revised payment instructions at the expected time. The law firm sees a familiar conversation and follows the request.
 
 The protection is a mandatory verification procedure for all new or changed payment instructions, regardless of how authentic the email appears.
 
----
+
 
 ## 4. The Most Common Vulnerability Gaps
 
@@ -467,7 +467,7 @@ Organizations often discover incidents through customers, banks, journalists, or
 
 **Guideline:** maintain a one-page incident plan and an offline contact list. Test the plan at least twice a year.
 
----
+
 
 ## 5. Minimum Viable Cybersecurity for Organizations Without Specialists
 
@@ -594,7 +594,7 @@ The plan should identify:
 - how evidence will be preserved;
 - which services recover first.
 
----
+
 
 ## 6. Free and Open-Source Security Tools
 
@@ -644,7 +644,7 @@ They should not be treated as routine self-service tools for non-specialists.
 
 > Security testing must be performed only on systems the organization owns or has explicit written authorization to assess.
 
----
+
 
 ## 7. Staff Training and Media Literacy
 
@@ -722,7 +722,7 @@ A practical annual program can be divided into short modules:
 
 Training should be reinforced with short exercises throughout the year rather than one long annual presentation.
 
----
+
 
 ## 8. Sector-Specific Staff Scenarios
 
@@ -750,7 +750,7 @@ A client sends new settlement-payment instructions within an existing email thre
 
 **Expected action:** call the verified client contact using the existing record; obtain required approval; document verification.
 
----
+
 
 ## 9. A 90-Day Implementation Plan
 
@@ -775,7 +775,7 @@ Management does not need dozens of technical metrics. A small dashboard can trac
 - date and outcome of the latest incident exercise;
 - number of unresolved high-risk website or infrastructure findings.
 
----
+
 
 ## 10. First 60 Minutes of a Suspected Incident
 
@@ -839,7 +839,7 @@ Obtain jurisdiction-specific legal advice regarding:
 - monitor for remaining attacker access;
 - document lessons and update controls.
 
----
+
 
 ## 11. When External Support Is the Better Option
 
@@ -883,7 +883,7 @@ However, the following responsibilities must remain with management:
 - How quickly must the provider notify us of an incident?
 - What is excluded from the contract?
 
----
+
 
 ## Conclusion
 
@@ -915,32 +915,35 @@ The most effective initial priorities are:
 9. control third-party access;
 10. rehearse the incident plan.
 
----
+
 
 ## Sources and Further Reading
 
-1. [Verizon — 2026 Data Breach Investigations Report](https://www.verizon.com/business/resources/reports/dbir/)
-2. [Verizon — 2026 DBIR Healthcare Snapshot](https://www.verizon.com/business/resources/reports/2026-dbir-healthcare-snapshot.pdf)
-3. [ENISA — Threat Landscape 2025](https://www.enisa.europa.eu/publications/enisa-threat-landscape-2025)
-4. [FBI Internet Crime Complaint Center — 2025 Annual Report](https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf)
-5. [Food and Ag-ISAC — 2025 Food and Agriculture Ransomware Landscape](https://www.foodandag-isac.org/post/navigating-the-2025-food-and-agriculture-sector-ransomware-landscape)
-6. [U.S. EPA — Actions to Safeguard Water Systems from Cyberattacks](https://www.epa.gov/newsreleases/epa-actions-help-safeguard-water-systems-cyberattacks)
-7. [U.S. EPA — Cybersecurity in the Water Sector](https://www.epa.gov/waterresilience/cybersecurity-water-sector)
-8. [NIST — Cybersecurity Framework 2.0 Small Business Quick Start Guide](https://www.nist.gov/publications/nist-cybersecurity-framework-20-small-business-quick-start-guide)
-9. [CISA — Known Exploited Vulnerabilities Catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
-10. [CISA — Cybersecurity Performance Goals](https://www.cisa.gov/cross-sector-cybersecurity-performance-goals)
-11. [CIS — Critical Security Controls Implementation Group 1](https://www.cisecurity.org/controls/implementation-groups/ig1)
-12. [OWASP — Web Security Testing Guide](https://owasp.org/www-project-web-security-testing-guide/)
-13. [OWASP — Zed Attack Proxy](https://www.zaproxy.org/)
-14. [Mozilla — HTTP Observatory](https://developer.mozilla.org/en-US/observatory)
-15. [NCSC — Cybersecurity Training for Staff](https://www.ncsc.gov.uk/blog-post/ncsc-cyber-security-training-for-staff-now-available)
-16. [NCSC — Exercise in a Box](https://www.ncsc.gov.uk/section/exercise-in-a-box/overview)
-17. [UNESCO — Media and Information Literacy](https://www.unesco.org/en/media-information-literacy)
-18. [Global Cyber Alliance — Small Business Toolkit](https://gcatoolkit.org/smallbusiness/)
-19. [HHS 405(d) — Health Industry Cybersecurity Practices](https://405d.hhs.gov/)
-20. [GitHub — Dependabot Alerts](https://docs.github.com/code-security/dependabot/dependabot-alerts/about-dependabot-alerts)
-21. [GitHub — CodeQL Code Scanning](https://docs.github.com/code-security/code-scanning/introduction-to-code-scanning/about-code-scanning-with-codeql)
-22. [Greenbone OpenVAS](https://www.openvas.org/)
-23. [Wazuh](https://wazuh.com/)
-24. [Let’s Encrypt](https://letsencrypt.org/)
-25. [Cloudflare Free Plan](https://www.cloudflare.com/plans/free/)
+## Sources and Further Reading
+
+* [Verizon — 2026 Data Breach Investigations Report](https://www.verizon.com/business/resources/reports/dbir/)
+* [Verizon — 2026 DBIR Healthcare Snapshot](https://www.verizon.com/business/resources/reports/2026-dbir-healthcare-snapshot.pdf)
+* [ENISA — Threat Landscape 2025](https://www.enisa.europa.eu/publications/enisa-threat-landscape-2025)
+* [FBI Internet Crime Complaint Center — 2025 Annual Report](https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf)
+* [Food and Ag-ISAC — 2025 Food and Agriculture Ransomware Landscape](https://www.foodandag-isac.org/post/navigating-the-2025-food-and-agriculture-sector-ransomware-landscape)
+* [U.S. EPA — Actions to Safeguard Water Systems from Cyberattacks](https://www.epa.gov/newsreleases/epa-actions-help-safeguard-water-systems-cyberattacks)
+* [U.S. EPA — Cybersecurity in the Water Sector](https://www.epa.gov/waterresilience/cybersecurity-water-sector)
+* [NIST — Cybersecurity Framework 2.0 Small Business Quick Start Guide](https://www.nist.gov/publications/nist-cybersecurity-framework-20-small-business-quick-start-guide)
+* [CISA — Known Exploited Vulnerabilities Catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog)
+* [CISA — Cybersecurity Performance Goals](https://www.cisa.gov/cross-sector-cybersecurity-performance-goals)
+* [CIS — Critical Security Controls Implementation Group 1](https://www.cisecurity.org/controls/implementation-groups/ig1)
+* [OWASP — Web Security Testing Guide](https://owasp.org/www-project-web-security-testing-guide/)
+* [OWASP — Zed Attack Proxy](https://www.zaproxy.org/)
+* [Mozilla — HTTP Observatory](https://developer.mozilla.org/en-US/observatory)
+* [NCSC — Cybersecurity Training for Staff](https://www.ncsc.gov.uk/blog-post/ncsc-cyber-security-training-for-staff-now-available)
+* [NCSC — Exercise in a Box](https://www.ncsc.gov.uk/section/exercise-in-a-box/overview)
+* [UNESCO — Media and Information Literacy](https://www.unesco.org/en/media-information-literacy)
+* [Global Cyber Alliance — Small Business Toolkit](https://gcatoolkit.org/smallbusiness/)
+* [HHS 405(d) — Health Industry Cybersecurity Practices](https://405d.hhs.gov/)
+* [GitHub — Dependabot Alerts](https://docs.github.com/code-security/dependabot/dependabot-alerts/about-dependabot-alerts)
+* [GitHub — CodeQL Code Scanning](https://docs.github.com/code-security/code-scanning/introduction-to-code-scanning/about-code-scanning-with-codeql)
+* [Greenbone OpenVAS](https://www.openvas.org/)
+* [Wazuh](https://wazuh.com/)
+* [Let’s Encrypt](https://letsencrypt.org/)
+* [Cloudflare Free Plan](https://www.cloudflare.com/plans/free/)
+
