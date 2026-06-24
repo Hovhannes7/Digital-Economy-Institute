@@ -45,15 +45,7 @@ export default function EventsPage() {
 
       <section className="bg-paper py-16">
         <Container>
-          <div className="mb-8 rounded-3xl border border-line bg-white p-6 shadow-subtle">
-            <h2 className="text-xl font-bold">Programs and expert sessions</h2>
-            <p className="mt-3 text-sm leading-6 text-steel">
-              The Events section will present public programs, research
-              seminars, expert sessions, policy workshops, forums, and
-              community-based discussions organized or supported by the
-              Institute of Digital Economy.
-            </p>
-          </div>
+          
 
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {categories.map((category) => (
