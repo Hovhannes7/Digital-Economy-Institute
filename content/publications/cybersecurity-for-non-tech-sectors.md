@@ -36,7 +36,6 @@ This report provides:
 - staff-training and media-literacy resources;
 - examples, checklists, and a 90-day implementation plan.
 
-[Download the complete formatted Word report](/reports/cybersecurity-for-non-tech-sectors-2026.docx)
 
 
 
