@@ -125,9 +125,12 @@ exceptions and phased obligations.
 ## Minimum evidence rule
 
 For consequential work, every AI-supported conclusion should be
-accompanied by: (1) the source or data used; (2) the date and
-jurisdiction; (3) an uncertainty statement; (4) the responsible human
-reviewer; and (5) a record of material changes made after review.
+accompanied by: 
+1) the source or data used; 
+2) the date and jurisdiction; 
+3) an uncertainty statement; 
+4) the responsible human reviewer; and 
+5) a record of material changes made after review.
 
 # 3. Selection at a glance
 
@@ -579,95 +582,8 @@ and organizational integration.
 | [Open WebUI](https://openwebui.com/) | Self-hosted interface for local or remote models | Flexible multi-model front end and knowledge features | Must be patched, access-controlled and network-segmented | Open source / self-hosted |
 | [Llama models](https://www.llama.com/) | Custom and self-hosted open-model applications | Deployment flexibility and broad ecosystem | License, safety evaluation and operating burden fall on deployer | Model license / cloud or local |
 
-# 10. IoDE adoption roadmap
 
-IoDE can use AI not only as a productivity technology but as a research
-object, a public-interest infrastructure and a method for connecting
-evidence across sectors. The following roadmap is designed for a small
-research institute that wants practical impact without creating
-unmanaged technical or reputational risk.
-
-| **Phase**                                     | **Actions**                                                                                                                                                                                                                    |
-|-----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Phase 1 — Govern (0–2 months)**             | Appoint an AI lead; approve a short acceptable-use policy; classify data; create a model/tool inventory; define prohibited uses; establish incident reporting.                                                                 |
-| **Phase 2 — Benchmark (1–3 months)**          | Create Armenian/English test sets for policy writing, legal citation, agronomic Q&A, environmental evidence and healthcare administration. Measure correctness, citation support, harmful advice, bias and reviewer time.      |
-| **Phase 3 — Pilot (2–6 months)**              | Run small pilots with named owners, representative users and pre-defined success/stop criteria. Prefer low-risk workflows such as literature discovery, public content, meeting summaries and source-grounded internal search. |
-| **Phase 4 — Ground (3–9 months)**             | Build approved knowledge bases using Armenian laws, official statistics, research publications and sector guidance. Use retrieval-augmented generation with document-level citations and access controls.                      |
-| **Phase 5 — Scale and monitor (6–12 months)** | Procure enterprise or private deployment where justified; train users; monitor quality and incidents; review suppliers; test data export and provider switching; publish transparent lessons learned.                          |
-
-## Priority pilot portfolio
-
-| **Pilot**                                   | **Design principle**                                                                                                                                                                                  |
-|---------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Agriculture knowledge assistant**         | A bilingual Armenian-English assistant grounded in official agronomic guidance, plant-protection rules and peer-reviewed research. All recommendations reviewed by agronomists before public release. |
-| **Environmental evidence desk**             | A source-grounded assistant over Armenian environmental legislation, national statistics, climate reports and approved geospatial datasets, with date and geographic-scale fields in every answer.    |
-| **Healthcare administration pilot**         | Non-diagnostic support for public information, document classification or administrative summarization using synthetic/de-identified test data before any live health information is considered.      |
-| **Legal and governance research assistant** | A research tool grounded in official Armenian legal sources and selected international materials, with mandatory links to primary authorities and a visible “not legal advice” boundary.              |
-| **IoDE publication workflow**               | Literature discovery, source management, outline development, fact-check queues, multilingual editing and accessible visual production, with named editorial reviewers.                               |
-
-## Armenian-language evaluation
-
-IoDE should not infer Armenian-language quality from English benchmarks.
-A dedicated test set should include formal and colloquial Armenian,
-sector terminology, transliteration, tables, citations, ambiguous legal
-language and rural user questions. Evaluation should measure not only
-fluency but factual support, correct refusal/escalation, terminology
-consistency and whether the system preserves meaning in translation.
-
-## Recommended architecture
-
-| **Layer**                     | **Role**                                                                                                      |
-|-------------------------------|---------------------------------------------------------------------------------------------------------------|
-| **Public layer**              | General assistants for public material, ideation and communications; no confidential data.                    |
-| **Institutional cloud layer** | Approved enterprise workspaces with identity, retention, audit, regional and connector controls.              |
-| **Evidence layer**            | Curated document repositories and structured data connected through retrieval, citations and version control. |
-| **Private layer**             | Local or private-cloud models for highly sensitive documents when technically and economically justified.     |
-| **Human assurance layer**     | Domain reviewers, editorial standards, sampling, red-team tests, incident response and periodic re-approval.  |
-
-# 11. Procurement and pilot checklist
-
-A vendor demonstration is not an evaluation. Before IoDE or a partner
-organization deploys an AI system, the following questions should be
-answered in writing.
-
-## Purpose and evidence
-
-- ☐ What exact workflow is being improved, and what is explicitly out of scope?
-- ☐ What sources, datasets and model versions are used? Can users open the underlying evidence?
-- ☐ What representative Armenian and sector-specific tests have been run?
-- ☐ What error rate, uncertainty and escalation threshold are acceptable?
-
-## Data and security
-
-- ☐ What data are collected, retained, logged, used for training or shared with subprocessors?
-- ☐ Where is data processed and stored? Are regional controls and deletion commitments available?
-- ☐ Does the system support SSO, role-based access, encryption, audit logs and customer-managed retention?
-- ☐ Can prompts, files, vectors, logs and outputs be exported and deleted at contract end?
-
-## Legal and ethical controls
-
-- ☐ Which laws, professional duties, sector rules and contractual obligations apply?
-- ☐ How are consent, privilege, intellectual property, accessibility and vulnerable groups addressed?
-- ☐ Does the provider disclose model changes and material incidents?
-- ☐ Who is liable for errors, and what insurance or indemnity is available?
-
-## Operations and human oversight
-
-- ☐ Who owns the workflow and signs off outputs?
-- ☐ What actions can the system take automatically, and which require approval?
-- ☐ How are users trained to verify evidence and report incidents?
-- ☐ How frequently will the system be re-evaluated after model, data or workflow changes?
-
-## Commercial resilience
-
-- ☐ What is the full cost including licenses, integration, training, monitoring and switching?
-- ☐ Can another model be substituted without rebuilding the full workflow?
-- ☐ What service levels, support and exit assistance are included?
-- ☐ Is there a documented plan for outage, degradation, provider failure or regulatory change?
-
-**Stop conditions for a pilot:** Pause deployment if the system fabricates sources, exposes protected information, makes unsafe high-impact recommendations, performs materially worse for Armenian or vulnerable groups, or cannot provide the audit information needed to investigate an incident.
-
-# 12. Conclusion and references
+# 10. Conclusion and references
 
 ## Conclusion
 
@@ -677,13 +593,6 @@ institutional practice points in the opposite direction. Different tools
 are optimized for different tasks, and the decisive questions concern
 evidence, data, accountability and deployment—not brand reputation
 alone.
-
-For IoDE, the strongest approach is a governed portfolio: general
-assistants for low-risk productivity; specialized tools for sector
-workflows; retrieval-grounded systems for institutional knowledge; local
-or private deployments where confidentiality requires them; and
-qualified human review whenever an output can affect rights, health,
-livelihoods, the environment or public policy.
 
 Used in this way, LLMs can lower the cost of accessing knowledge,
 strengthen cross-sector research and support innovation in Armenia. Used
