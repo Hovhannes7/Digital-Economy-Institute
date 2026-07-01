@@ -22,7 +22,7 @@ Large countries can afford complex AI agencies, large testing infrastructure, an
 
 But size is not only a weakness. Smaller states can also move faster, coordinate more easily, and test practical solutions before large bureaucracies can even agree on the process.
 
-This article uses the term **small states** broadly. It includes Small Island Developing States and landlocked small states like Armenia with many similar challenges: a limited domestic market, dependence on imported technologies, talent constraints, and the need to connect AI adoption with national development.
+This article uses the term small states broadly. It includes Small Island Developing States and landlocked small states like Armenia with many similar challenges: a limited domestic market, dependence on imported technologies, talent constraints, and the need to connect AI adoption with national development.
 
 The main argument is simple: small states do not need to copy the AI governance models of the United States, China, or the European Union. They need lighter, realistic, enforceable systems that help them use AI safely and productively. For Armenia, the next step is to connect its growing AI and digitalization agenda with practical rules on procurement, data protection, transparency, human oversight, civil-service training, and controlled experimentation through AI sandboxes.
 
@@ -71,15 +71,15 @@ These are not abstract legal questions. They are the difference between useful A
 
 ## 4. Governance Priorities
 
-Small states should not begin with overly complex AI legislation that they cannot enforce. A better approach is **risk-based governance**.
+Small states should not begin with overly complex AI legislation that they cannot enforce. A better approach is risk-based governance.
 
 Low-risk systems may include internal document summarization, translation support, or public information chatbots. Medium-risk systems may support administrative workflows. High-risk systems include AI tools used in taxation, healthcare, education, law enforcement, public finance, social benefits, or digital identity.
 
 The higher the risk, the stronger the obligations should be: documentation, testing, human oversight, audit logs, cybersecurity review, and appeal mechanisms.
 
-AI governance also cannot work without **data governance**. Armenia should prioritize public-sector data quality, interoperability, anonymization, secure data-sharing, and Armenian-language datasets. The goal is not simply to collect more data, but to make data usable, lawful, secure, and relevant to local needs.
+AI governance also cannot work without data governance. Armenia should prioritize public-sector data quality, interoperability, anonymization, secure data-sharing, and Armenian-language datasets. The goal is not simply to collect more data, but to make data usable, lawful, secure, and relevant to local needs.
 
-For small states, **procurement** is one of the strongest governance tools. Most AI systems used by the public sector will be purchased or adapted from vendors. Every AI procurement should require clear answers about data sources, model limitations, cybersecurity, explainability, bias testing, audit access, human oversight, and exit clauses. A system that cannot be audited, adapted, or replaced should not become critical public infrastructure.
+For small states, procurement is one of the strongest governance tools. Most AI systems used by the public sector will be purchased or adapted from vendors. Every AI procurement should require clear answers about data sources, model limitations, cybersecurity, explainability, bias testing, audit access, human oversight, and exit clauses. A system that cannot be audited, adapted, or replaced should not become critical public infrastructure.
 
 Transparency also matters. Citizens should know when AI is used in public services. Public institutions should maintain an AI system register describing the purpose of each system, the responsible authority, the risk level, and the available safeguards. This does not mean publishing sensitive technical details. It means making sure citizens are not governed by invisible systems.
 
