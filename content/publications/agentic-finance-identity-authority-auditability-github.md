@@ -39,7 +39,7 @@ For small economies such as Armenia, the opportunity is not to copy a large-coun
 
 The practical recommendation is simple: small countries should not begin with a broad national open-banking proposal. They should begin with a narrow agentic-finance governance sprint. The first question should not be whether the country can become a fintech hub. The first question should be whether one simple SME financial workflow can be safely represented, governed, audited and explained when an AI agent acts under bounded authority.
 
----
+
 
 ## 1. From Digital Finance to Agentic Finance
 
@@ -68,7 +68,7 @@ This is why the term agentic finance should be used carefully. It should not des
 
 The practical line is not whether the system uses a large language model. The practical line is whether the system can initiate or meaningfully shape actions in a financial workflow.
 
----
+
 
 ## 2. The Missing Authority Layer
 
@@ -107,7 +107,7 @@ A robust authority layer should therefore have six properties:
 
 Without these properties, agentic finance will remain difficult to trust.
 
----
+
 
 ## 3. What Makes Financial Agents Different from Ordinary Automation
 
@@ -129,7 +129,7 @@ Therefore, agentic finance should not be judged only by model accuracy. A very a
 
 The central design problem is matching autonomy to authority. The more consequential the action, the narrower and more evidence-backed the authority should be.
 
----
+
 
 ## 4. The Emerging Technical Stack
 
@@ -173,7 +173,7 @@ KYE Protocol calls this kind of record an Evidence Pack and emphasizes proof of 
 
 The system must support after-the-fact audits, dispute resolution, incident response, policy updates and decommissioning. Agents should not become permanent invisible actors. They should have lifecycle management: registration, approval, operation, monitoring, suspension, revocation and retirement.
 
----
+
 
 ## 5. Evidence Packs, Finality Receipts and Auditability
 
@@ -214,7 +214,7 @@ Evidence packs are also important for small economies. If many firms depend on t
 
 This does not eliminate systemic risk, but it improves observability. In a small financial system, observability may be as important as automation.
 
----
+
 
 ## 6. Main Use Cases in Agentic Finance
 
@@ -265,7 +265,7 @@ Agent-to-agent negotiation is a future-facing use case. A buyer's agent and supp
 
 This could reduce transaction costs for SMEs. It could also create new risks: collusion, unfair pressure, information leakage, hidden optimization objectives and accountability gaps. Agent-to-agent negotiation should therefore be tested first with synthetic data and clear authority boundaries.
 
----
+
 
 ## 7. Risk Landscape
 
@@ -313,7 +313,7 @@ Legal-liability risk concerns responsibility. If an AI agent executes a payment 
 
 The answer will depend on law, contract, regulation and facts. But without evidence records, even determining the facts becomes difficult. Agentic finance governance should therefore be designed to support legal reconstruction, not only technical debugging.
 
----
+
 
 ## 8. Product and Market Landscape
 
@@ -335,7 +335,7 @@ The market signal is clear: the agentic-finance governance stack is forming from
 
 KYE's differentiated position appears to be the authority-and-evidence narrative: not just identity, not just access control, but a chain of authority that can be explained and verified.
 
----
+
 
 ## 9. Scientific and Patent Landscape
 
@@ -351,7 +351,7 @@ The patent landscape shows similar movement. Okta's patent application on managi
 
 These patents should not be treated as proof of product maturity, but they are useful signs that the intellectual-property landscape is forming around agent identity, delegated authority and auditability.
 
----
+
 
 ## 10. Regulation, Standards and Public-Policy Implications
 
@@ -377,41 +377,6 @@ Agentic finance governance is a strong candidate for such discussion because it 
 
 The policy objective should not be to allow unsupervised AI agents to move money freely. The objective should be to develop local competence in governing delegated autonomous action. That competence would help Armenian banks, fintechs, SMEs, regulators and technology providers understand future open-finance risks before they become urgent. It would also position Armenia as a small-state laboratory for practical, risk-proportionate AI governance.
 
----
-
-## 11. A Practical Pilot for Armenia
-
-Armenia should not begin with a national agentic-finance strategy. A more realistic starting point would be a small synthetic-data pilot focused on one SME financial workflow.
-
-A possible pilot could model an AI payment assistant for an Armenian SME. The agent would read invoices, match them with purchase orders, identify due dates, prepare routine payments and request human approval when necessary. It would not connect to a live bank account. It would not use real customer data. It would not execute real payments. It would operate in a simulated environment.
-
-The pilot could test six scenarios:
-
-1. A routine payment to an existing supplier below a threshold.
-2. A payment to a new beneficiary requiring human approval.
-3. A large payment requiring CFO approval.
-4. A cross-border payment requiring enhanced review.
-5. A transaction rejected because the delegation expired.
-6. A transaction blocked after the owner revoked the agent's authority.
-
-The purpose of the pilot would not be to prove that Armenia is ready for full agentic finance. The purpose would be to test whether an authority layer can represent the workflow, enforce limits, produce evidence and explain outcomes.
-
-The outputs could include:
-
-- an authority map;
-- a risk matrix;
-- a synthetic transaction dataset;
-- a policy-as-code demonstration;
-- evidence-pack examples;
-- finality-receipt examples;
-- a short readiness brief;
-- recommendations for a second phase with a fintech, bank, payment provider, university or innovation programme.
-
-Such a pilot would be useful because it creates a bridge between research and implementation. It would allow policymakers, technologists, lawyers, fintechs and SMEs to discuss agentic finance using a concrete workflow rather than abstract concepts.
-
-For IoDE, this is also a strategic opportunity. The Institute of Digital Economy can position itself not simply as a commentator on global AI trends, but as a local research and pilot-development platform that translates emerging technologies into practical Armenian use cases.
-
----
 
 ## Conclusion
 
@@ -423,7 +388,7 @@ The future of agentic finance will therefore depend less on impressive AI interf
 
 For financial institutions, this means that AI adoption should not be judged only by productivity gains. It should also be judged by whether the institution can explain, limit, interrupt and audit the actions of its agents. For regulators, it means that the supervision of AI in finance will need to distinguish between systems that merely inform, systems that recommend, systems that prepare actions and systems that execute actions. For SMEs, it means that agentic finance could reduce operational burdens, but only if authority boundaries are clear and human control is preserved where risk is high.
 
-For Armenia and other small economies, the opportunity is practical rather than rhetorical. The country does not need to copy the most complex models of larger jurisdictions. It can begin with a controlled, synthetic-data pilot that tests one narrow SME workflow and asks whether delegated autonomous action can be governed safely. Such a pilot would not require live bank integration or real customer data. It would require clear problem definition, technical experimentation, legal and regulatory review, and cooperation between domain experts and technology specialists.
+For small economies, the opportunity is practical rather than rhetorical. The country does not need to copy the most complex models of larger jurisdictions. It can begin with a controlled, synthetic-data pilot that tests one narrow SME workflow and asks whether delegated autonomous action can be governed safely. Such a pilot would not require live bank integration or real customer data. It would require clear problem definition, technical experimentation, legal and regulatory review, and cooperation between domain experts and technology specialists.
 
 The safest path is gradual. Agentic finance should begin with preparation, recommendation, escalation and bounded execution. Only after authority, auditability and liability questions are addressed should more autonomous financial agents be considered.
 
@@ -431,7 +396,7 @@ If designed well, agentic finance can become more than another fintech trend. It
 
 The difference between these futures will depend on whether countries, companies and institutions build the missing authority layer before agentic finance becomes widespread.
 
----
+
 
 ## References and Further Reading
 
