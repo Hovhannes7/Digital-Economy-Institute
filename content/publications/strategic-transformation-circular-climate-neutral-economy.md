@@ -108,7 +108,7 @@ Industrial leadership must stay ahead of the regulatory curve, especially as the
 
 ### Leadership Compliance Directive
 
-* [ ] **Design Audit:** Align product development with ecodesign standards to reduce environmental liability.
+*  **Design Audit:** Align product development with ecodesign standards to reduce environmental liability.
 * [ ] **Metric Integration:** Use circular economy monitoring indicators to benchmark internal material flows.
 * [ ] **Stakeholder Synthesis:** Engage with circular economy platforms and industrial networks to exchange best practices.
 
