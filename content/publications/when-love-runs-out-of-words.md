@@ -245,8 +245,4 @@ These entries represent three distinct patent families, not three unrelated comm
 
 **[12]** California Department of Justice, Office of the Attorney General. [California Consumer Privacy Act](https://oag.ca.gov/privacy/ccpa), updated 28 August 2026, particularly the explanations of covered residents and businesses, sensitive personal information, opt-out rights and limits on use. The CCPA is discussed as amended by the CPRA.
 
-## Editorial note
 
-**Evidence cut-off: 24 September 2026.** The couples, scenes, dialogue and example AI responses are fictional; no interviews were conducted. Their experiences are not evidence of effectiveness or demonstrations of a particular product. The cover is an AI-generated illustration. This selective feature is not a systematic review or exhaustive patent search. Its recommendations are editorial proposals, not an official IoDE position, clinical advice or a legal-compliance opinion.
-
-Research claims were checked against accessible articles, abstracts, institutional records and the cited preprint; some full texts were unavailable. Direct EUR-Lex and USPTO access was unavailable, so official Commission and EDPB sources and reproduced published patent specifications were used. California law was checked against the official Attorney General's guidance. Patent maintenance, ownership and enforceability were not independently certified. The evidence does not establish that general-purpose chatbots repair relationships or resolve bereavement. Long-term effects, Armenian-language performance and product-specific privacy practices remain unresolved.
