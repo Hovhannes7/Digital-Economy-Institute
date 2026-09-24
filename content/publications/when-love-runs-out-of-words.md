@@ -6,7 +6,7 @@ author: "Hovhannes Adajyan"
 type: "Technology Explainer"
 issueArea: "AI Governance"
 summary: "In a hospital corridor, across a border and at a kitchen table after loss, three fictional couples turn to AI when words fail them. Their stories illuminate what research and patents reveal about machine-generated empathy—and why comfort, privacy and genuine human connection must be considered together."
-tags: ["Emotional AI", "Human-AI Interaction", "AI Governance", "Privacy", "Armenia"]
+tags: ["Emotional AI", "Human-AI Interaction", "AI Governance", "Privacy"]
 readingTime: "14 min read"
 ---
 
