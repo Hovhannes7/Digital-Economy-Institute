@@ -192,19 +192,6 @@ Law cannot answer every design question. If a service is rewarded for longer ses
 
 Developers and purchasers should ask for evidence of user benefit beyond engagement. They should also require honest explanations of uncertainty, workable routes to human help and ways to stop using the system without emotional pressure.
 
-## A question for Armenia
-
-For Armenia and other small digital economies, these are practical procurement and research questions. The following are proposals, not descriptions of existing programmes or an official IoDE position.
-
-A sensible first step would be independent testing of Armenian-language interactions, including regional variation, indirect expressions of distress and conversations that move between languages. An assistant that produces fluent Armenian should not be assumed to interpret a particular family's humour or silence accurately.
-
-Universities, clinicians and civil-society organisations could help evaluate consent-based pilots with clear limits. An initial project might examine whether people find a tool useful for preparing questions or drafting a difficult message. It should not advertise relationship repair or emotional diagnosis without evidence adequate to those claims.
-
-Public purchasers should ask what data leaves the device, who can access it, how long it remains stored, and how mistakes can be challenged. Evaluation should include misunderstandings, privacy problems and unwanted dependence, not merely satisfaction scores or the number of conversations completed.
-
-AI literacy should give users permission to reject a polished answer. A machine can sound certain about a partner it has never met. People need to recognise that confidence as a feature of the output, not independent knowledge of the relationship.
-
-For a small research community, documenting where a system fails in a local language may be more useful than announcing that it understands human emotion.
 
 ## Back in the corridor
 
