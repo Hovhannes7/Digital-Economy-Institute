@@ -34,7 +34,11 @@ export default function PublicationsPage() {
       <section className="bg-paper py-16">
         <Container>
           
-          <PublicationsExplorer publications={getAllPublications()} />
+          <PublicationsExplorer
+            publications={getAllPublications().filter(
+              (publication) => publication.type !== "Event"
+  )}
+/>
         </Container>
       </section>
     </>
