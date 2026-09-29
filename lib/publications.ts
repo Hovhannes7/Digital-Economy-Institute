@@ -1,7 +1,16 @@
 import fs from "fs";
 import path from "path";
 
-export type PublicationType = "Report" | "Policy Brief" | "Commentary" | "Research Note" | "Technology Explainer" | "Working Paper" | "Testimonies and Submissions" | "Data Brief";
+export type PublicationType =
+  | "Report"
+  | "Policy Brief"
+  | "Commentary"
+  | "Research Note"
+  | "Technology Explainer"
+  | "Working Paper"
+  | "Testimonies and Submissions"
+  | "Data Brief"
+  | "Event";
 export type Publication = {
   title: string;
   slug: string;
