@@ -2,13 +2,16 @@
 title: "Cisco Networking Academy Camp Armenia 2026 Concludes: 396 Learners Joined the Program"
 date: "2026-09-25"
 slug: "cisco-networking-academy-camp-armenia-2026-results"
-section: "Public Lectures"
-excerpt: "Cisco Networking Academy Camp Armenia 2026 concluded on 25 September after engaging 396 learners across five digital-skills areas, with 130 participants successfully completing the examination stage and receiving certificates."
-image: "./cisco-networking-academy-camp-armenia-2026-results.webp"
-image_alt: "Cisco Networking Academy Camp Armenia 2026 completion announcement highlighting 396 learners and 130 certificate recipients"
+author: "Institute of Digital Economy"
+type: "Event"
+issueArea: "Digital Skills & Education"
+summary: "Cisco Networking Academy Camp Armenia 2026 concluded on 25 September after engaging 396 learners across five digital-skills areas, with 130 participants successfully completing the examination stage and receiving certificates."
+tags: ["Cisco Networking Academy", "Digital Skills", "Cybersecurity", "AI", "Education"]
+readingTime: "3 min read"
 ---
 
-![Cisco Networking Academy Camp Armenia 2026 completion announcement](./cisco-networking-academy-camp-armenia-2026-results.webp)
+![Cisco Networking Academy Camp Armenia 2026 completion announcement](/images/cisco-networking-academy-camp-armenia-2026-results.webp)
+
 
 **Cisco Networking Academy Camp Armenia 2026** concluded on **25 September 2026**, completing a learning initiative launched within the framework of the Memorandum of Understanding between the **Ministry of High-Tech Industry of the Republic of Armenia** and **Cisco Networking Academy**.
 
