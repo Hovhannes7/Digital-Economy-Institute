@@ -140,6 +140,16 @@ export function MarkdownBody({ content }: { content: string }) {
           );
         }
 
+        if (/^\d+\.\s/.test(t)) {
+          return (
+            <ol key={i} className="list-decimal space-y-2 pl-6 text-slate-700">
+              {t.split("\n").map((x, j) => (
+                <li key={j}>{inlineFormat(x.replace(/^\d+\.\s*/, ""))}</li>
+              ))}
+            </ol>
+          );
+        }
+
         if (t.startsWith("- ")) {
           return (
             <ul key={i} className="list-disc space-y-2 pl-6 text-slate-700">
