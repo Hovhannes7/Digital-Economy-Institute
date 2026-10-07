@@ -2,13 +2,15 @@
 title: "Cisco Networking Academy Camp Armenia 2026 Launches in Armenia"
 date: "2026-08-04"
 slug: "cisco-networking-academy-camp-armenia-2026-launch"
-section: "Public Lectures"
-excerpt: "The Institute of Digital Economy (IoDE) launches Cisco Networking Academy Camp Armenia 2026, offering structured learning in digital literacy, cybersecurity, artificial intelligence, investigation skills, and professional development."
-image: "./cisco-networking-academy-camp-armenia-2026-launch.webp"
-image_alt: "Cisco Networking Academy Camp Armenia 2026 launch announcement with Ministry of High-Tech Industry, Cisco Networking Academy, IoDE and BAU Academy"
+author: "Institute of Digital Economy"
+type: "Event"
+issueArea: "Digital Skills & Education"
+summary: "The Institute of Digital Economy (IoDE) launched Cisco Networking Academy Camp Armenia 2026, offering structured learning in digital literacy, cybersecurity, artificial intelligence, investigation skills, and professional development."
+tags: ["Cisco Networking Academy", "Digital Skills", "Cybersecurity", "AI", "Education"]
+readingTime: "3 min read"
 ---
 
-![Cisco Networking Academy Camp Armenia 2026 launch announcement](./cisco-networking-academy-camp-armenia-2026-launch.webp)
+![Cisco Networking Academy Camp Armenia 2026 launch announcement](/images/cisco-networking-academy-camp-armenia-2026-launch.webp)
 
 The **Institute of Digital Economy (IoDE)** is pleased to announce the launch of **Cisco Networking Academy Camp Armenia 2026**, a structured learning initiative designed to strengthen digital and professional skills in Armenia.
 
