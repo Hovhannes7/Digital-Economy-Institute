@@ -1,5 +1,6 @@
 export function AuthorBio({ name }: { name: string }) {
   const isHovhannes = name === "Hovhannes Adajyan";
+  const isIoDE = name === "Institute of Digital Economy";
 
   return (
     <div className="rounded-3xl border border-line bg-white p-6 shadow-subtle">
@@ -28,6 +29,19 @@ export function AuthorBio({ name }: { name: string }) {
           <p className="mt-4 text-xs leading-6 text-steel">
             Disclosure: Publications reflect the author’s independent research
             and policy analysis unless otherwise stated.
+          </p>
+        </>
+      ) : isIoDE ? (
+        <>
+          <p className="mt-4 text-sm leading-7 text-steel">
+            The Institute of Digital Economy is an independent Armenian think
+            tank focused on digital transformation, technology policy,
+            applied research, digital skills, and international cooperation.
+          </p>
+
+          <p className="mt-4 text-xs leading-6 text-steel">
+            Institutional publications present IoDE programs, research,
+            partnerships, and public-interest technology initiatives.
           </p>
         </>
       ) : (
