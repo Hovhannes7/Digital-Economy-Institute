@@ -17,7 +17,7 @@ function inlineFormat(text: string) {
           rel="noopener noreferrer"
           className="font-medium text-blue-700 underline underline-offset-4 hover:text-blue-900"
         >
-          {markdownLink[1]}
+          {inlineFormat(markdownLink[1])}
         </a>
       );
     }
@@ -85,7 +85,15 @@ function renderTable(block: string, key: number) {
 }
 
 export function MarkdownBody({ content }: { content: string }) {
-  const blocks = content.split(/\n\s*\n/);
+  const blocks = content.split(/\n\s*\n/).reduce<string[]>((result, block) => {
+    const previous = result[result.length - 1];
+    if (/^\d+\.\s/.test(block.trim()) && previous && /^\d+\.\s/.test(previous.trim())) {
+      result[result.length - 1] = `${previous}\n\n${block}`;
+    } else {
+      result.push(block);
+    }
+    return result;
+  }, []);
 
   return (
     <div className="space-y-6">
@@ -137,6 +145,26 @@ export function MarkdownBody({ content }: { content: string }) {
             <h1 key={i} className="text-4xl font-bold tracking-tight text-slate-950">
               {inlineFormat(t.replace(/^# /, ""))}
             </h1>
+          );
+        }
+
+        if (/^\d+\.\s/.test(t)) {
+          const items: { number: number; lines: string[] }[] = [];
+          for (const line of t.split("\n")) {
+            const marker = line.match(/^\s*(\d+)\.\s+(.*)$/);
+            if (marker) {
+              items.push({ number: Number(marker[1]), lines: [marker[2]] });
+            } else if (line.trim() && items.length) {
+              items[items.length - 1].lines.push(line.trim());
+            }
+          }
+
+          return (
+            <ol key={i} start={items[0].number} className="list-decimal space-y-2 pl-6 text-slate-700">
+              {items.map((item, j) => (
+                <li key={j} value={item.number}>{inlineFormat(item.lines.join(" "))}</li>
+              ))}
+            </ol>
           );
         }
 
